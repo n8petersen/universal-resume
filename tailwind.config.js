@@ -27,10 +27,18 @@ module.exports = {
         "firago": ["FiraGO", ...defaultTheme.fontFamily.sans],
       },
       fontSize: {
+        xs: '0.75rem',
+        sm: '0.875rem',
         sm2: "0.9375rem", // 15px label
         base: "1rem", // 16px base
         md: "1.0625rem", // 17px body
         lg: "1.125rem", // 18px heading
+        xl: '1.25rem',
+        '2xl': '1.5rem',
+        '3xl': '1.875rem',
+        '4xl': '2.25rem',
+        '5xl': '3rem',
+        '6xl': '4rem',
       },
       lineHeight: {
         snugish: "1.32",
@@ -184,7 +192,7 @@ module.exports = {
         ".col-count-3": {
           "column-count": "3",
         },
-        ".col-gap-md": {
+        ".gap-x-md": {
           "column-gap": "2.1875rem",
         },
         ".break-after-col": {
