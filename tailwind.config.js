@@ -2,6 +2,10 @@ const defaultTheme = require("tailwindcss/defaultTheme");
 const plugin = require("tailwindcss/plugin");
 
 module.exports = {
+  content: [
+    './docs/**/*.html',
+    './docs/**/*.{js,jsx,ts,tsx,vue}',
+  ],
   theme: {
     /* For Letter size */
     screens: {
@@ -78,12 +82,6 @@ module.exports = {
         link: "#fbf3f3"
       },
     },
-  },
-
-  variants: {
-    textColor: ["responsive", 'hover', 'focus', 'group-hover'],
-    margin: ["responsive", "last", "first"],
-    padding: ["responsive", "last"],
   },
 
   plugins: [
